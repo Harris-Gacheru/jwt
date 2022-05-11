@@ -1,0 +1,22 @@
+DROP TABLE IF EXISTS  posts
+
+DROP TABLE IF EXISTS  users
+
+CREATE TABLE posts (
+    post_id INT IDENTITY PRIMARY KEY,
+    post_title VARCHAR(50) NOT NULL,
+    post VARCHAR(255) NOT NULL,
+    user_id INT NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+)
+
+CREATE TABLE users (
+    user_id INT IDENTITY PRIMARY KEY,
+    user_name VARCHAR(100) NOT NULL,
+    user_email VARCHAR(50) NOT NULL UNIQUE,
+    user_pwd VARCHAR(255) NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+)
+
+-- SELECT * FROM posts
+-- SELECT * FROM users

@@ -1,0 +1,1 @@
+{"version":3,"file":"posts.router.js","sourceRoot":"","sources":["../../Routers/posts.router.ts"],"names":[],"mappings":";;;;;AAAA,sDAA6B;AAC7B,sEAAsE;AACtE,2DAAuD;AACvD,MAAM,YAAY,GAAG,iBAAO,CAAC,MAAM,EAAE,CAAA;AAErC,YAAY,CAAC,IAAI,CAAC,cAAc,EAAE,yBAAW,EAAE,6BAAU,CAAC,CAAA;AAC1D,YAAY,CAAC,GAAG,CAAC,QAAQ,EAAE,yBAAW,EAAE,2BAAQ,CAAC,CAAA;AAEjD,kBAAe,YAAY,CAAA"}
